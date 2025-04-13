@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_clinic_room.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAddClinicRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Phòng Khám" />
+
+    <Button
+        android:id="@+id/btnDeleteClinicRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa Phòng Khám" />
+
+    <Button
+        android:id="@+id/btnUpdateClinicRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập Nhật Phòng Khám" />
+
+    <Button
+        android:id="@+id/btnGetClinicRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Phòng Khám" />
+
+    <ListView
+        android:id="@+id/listViewClinicRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

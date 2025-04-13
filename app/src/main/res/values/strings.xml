@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QLBV</string>
+    <string-array name="roles">
+        <item>Bệnh nhân</item>
+        <item>Bác sĩ</item>
+        <item>Admin</item>
+    </string-array>
+</resources>

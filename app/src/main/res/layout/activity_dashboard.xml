@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin chào!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/btnSchedule"
+            android:text="Đặt lịch khám"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btnMedicalRecord"
+            android:text="Hồ sơ bệnh án"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnManageMedicine"
+            android:text="Quản lý thuốc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"
+        /> <!-- Ẩn mặc định -->
+
+        <Button
+            android:id="@+id/btnClinicRoom"
+            android:text="Phòng khám"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:text="Thông tin cá nhân"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#000000"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Đăng xuất"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#D32F2F"
+            android:textColor="@android:color/white"/>
+    </GridLayout>
+</LinearLayout>
